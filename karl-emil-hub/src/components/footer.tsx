@@ -3,8 +3,7 @@ import "../styles/footer.scss"
 const Footer = () => {
 
   return (
-    <footer className="footer">
-    </footer>
+    <footer className="footer"></footer>
   )
 }
 

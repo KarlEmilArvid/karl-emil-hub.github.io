@@ -6,6 +6,10 @@ const About = () => {
         <article className="about">
             <h2>Front-end developer in development</h2>
             <p>
+                I'm a 26 year old man doing my second year of front-end dev at folkuniversitetet, I have a big interest in computers,
+                music and movies. etc etc
+            </p>
+            <p>
                 I'm doing my 2nd year at this Front-end course and this portfolio is to showcase things that I've
                 made
                 in my career, things I've learnt and small tidbits about me and what I do.

@@ -1,0 +1,65 @@
+@import "./variables.scss";
+
+.header {
+    border: 2px solid red;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+.nav-container {
+    position: sticky;
+    top: 5rem;
+    z-index: 1;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.4rem;
+    background-color: rgba(0, 0, 255, 0.41);
+    display: flex;
+    justify-content: center;
+
+    ul {
+        width: 80%;
+        max-width: 600px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        li {
+            padding: 1rem 0;
+        }
+    }
+
+    .vertical-line {
+        margin: 0.4rem;
+        width: 2px;
+        background-color: grey;
+    }
+
+    a {
+        color: silver;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: $header-font;
+    }
+
+    a:active {
+        color: $green-bg;
+    }
+
+    .active {
+        color: $green-bg;
+    }
+}
+
+@media screen and (min-width: 1090px) {
+    .menu-nav {
+        a {
+            font-size: 23px;
+        }
+    }
+
+}

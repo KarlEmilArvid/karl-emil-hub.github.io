@@ -2,17 +2,33 @@ import "../styles/header.scss"
 
 const Header = () => {
 
-  return (
-    <header className="header">
+	return (
+		<header className="header">
 			<nav className="nav-container">
-				<a href="">start</a>
-				<a href="">about</a>
-				<a href="">development tools?</a>
-				<a href="">projects</a>
-				<a href="">contact</a>
+				<ul>
+					<li>
+						<a href="">start</a>
+					</li>
+					<span className="vertical-line"></span>
+					<li>
+						<a href="">about</a>
+					</li>
+					<span className="vertical-line"></span>
+					<li>
+						<a href="">development tools?</a>
+					</li>
+					<span className="vertical-line"></span>
+					<li>
+						<a href="">projects</a>
+					</li>
+					<span className="vertical-line"></span>
+					<li>
+						<a href="">contact</a>
+					</li>
+				</ul>
 			</nav>
-    </header>
-  )
+		</header>
+	)
 }
 
 export default Header
