@@ -3,3 +3,50 @@
 .projects {
     border: 2px solid red;
 }
+
+.projects h3 {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.projects a {
+    margin: 0.5rem;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-card {
+    width: 500px;
+    min-height: 200px;
+    margin: 3rem 2rem;
+    padding: 2rem;
+    border: 2px dotted silver;
+
+    img {
+        max-width: 400px;
+        --b: 5px;
+        /* border thickness */
+        --c: #0000 25%, silver 0;
+        /* define the color here */
+        padding: 10px;
+        background:
+            conic-gradient(from 90deg at top var(--b) left var(--b), var(--c)) 0 0,
+            conic-gradient(from 180deg at top var(--b) right var(--b), var(--c)) 100% 0,
+            conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--c)) 0 100%,
+            conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--c)) 100% 100%;
+        background-size: 60px 60px;
+        /* adjust border length here */
+        background-repeat: no-repeat;
+        transition: .6s;
+        cursor: pointer;
+    }
+
+    img:hover {
+        background-size: 51% 51%;
+    }
+}

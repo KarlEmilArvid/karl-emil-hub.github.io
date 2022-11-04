@@ -14,15 +14,12 @@ const About = () => {
                     music and movies. etc etc
                 </p>
                 <p>
-                    I'm doing my 2nd year at this Front-end course and this portfolio is to showcase things that I've
-                    made
-                    in my career, things I've learnt and small tidbits about me and what I do.
+                    this portfolio is to showcase things that I've made in my career,
+                    things I've learnt and small tidbits about me and what I do.
                 </p>
                 <p>and a paragraph explaining why i've made this portfolio and what i'm about</p>
                 <p>maybe some text about how i'm studying and looking for internships</p>
-                <p>In the future I'd love to dive deeper into vanilla JS, maybe try out Vue and Svelte plus get some backend experience with
-                    Go and Rust, while also getting better at Python.
-                </p>
+                <p>In the future I want to dive deeper into more front-end frameworks like Vue and Svelte plus get some backend experience with Go and Rust.</p>
             </section>
         </article>
     )

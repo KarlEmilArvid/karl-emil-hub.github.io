@@ -14,11 +14,11 @@ const ContactSimple = () => {
                 <ul className="contact-list">
                     <li>
                         <a href="">link to github</a>
-                        <img src="" alt="" />
+                        <img src="https://github.com/KarlEmilArvid" alt="" />
                     </li>
                     <li>
                         <a href="">link to linkedin</a>
-                        <img src="" alt="" />
+                        <img src="https://www.linkedin.com/in/emil-arvidsson-244797236/" alt="" />
                     </li>
                     <li>
                         <a href="">link to stuff</a>

@@ -4,7 +4,7 @@
     position: sticky;
     top: 0;
 }
-
+//gör navbar vanlig och klickbar så att man hoppar till kategorier istället för att ha den sticky
 .nav-container {
     display: flex;
     justify-content: flex-end;
@@ -28,17 +28,17 @@
     }
 
     a {
+        font-size: 1.6rem;
         color: silver;
         text-decoration: none;
+        background: linear-gradient(#1095c1 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+        transition: 0.4s, background-position 0s;
         cursor: pointer;
     }
 
-    a:active {
-        color: $green-bg;
-    }
-
-    .active {
-        color: $green-bg;
+    a:hover {
+        --p: 100%;
+        color: #fff;
     }
 }
 

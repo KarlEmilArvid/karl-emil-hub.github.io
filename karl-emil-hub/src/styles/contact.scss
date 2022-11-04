@@ -2,8 +2,15 @@
 
 .contact {
     border: 2px solid red;
+    padding: 2rem;
+    min-height: 300px;
 }
 
 .contact-list {
     list-style-type: none;
+    margin: 2rem;
+}
+
+.contact-list li {
+    margin: 2rem;
 }
