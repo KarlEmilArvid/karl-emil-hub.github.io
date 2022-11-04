@@ -1,27 +1,15 @@
 @import "./variables.scss";
 
 .header {
-    border: 2px solid red;
-}
-
-h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
+    position: sticky;
+    top: 0;
 }
 
 .nav-container {
-    position: sticky;
-    top: 5rem;
-    z-index: 1;
-    width: 100%;
-    margin-top: 1rem;
-    padding: 0.4rem;
-    background-color: rgba(0, 0, 255, 0.41);
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 
     ul {
-        width: 80%;
         max-width: 600px;
         list-style: none;
         display: flex;
@@ -43,7 +31,6 @@ h1 {
         color: silver;
         text-decoration: none;
         cursor: pointer;
-        font-family: $header-font;
     }
 
     a:active {

@@ -6,6 +6,7 @@ const Header = () => {
 		<header className="header">
 			<nav className="nav-container">
 				<ul>
+					<span className="vertical-line"></span>
 					<li>
 						<a href="">start</a>
 					</li>
@@ -15,7 +16,7 @@ const Header = () => {
 					</li>
 					<span className="vertical-line"></span>
 					<li>
-						<a href="">development tools?</a>
+						<a href="">tools</a>
 					</li>
 					<span className="vertical-line"></span>
 					<li>
@@ -25,6 +26,7 @@ const Header = () => {
 					<li>
 						<a href="">contact</a>
 					</li>
+					<span className="vertical-line"></span>
 				</ul>
 			</nav>
 		</header>

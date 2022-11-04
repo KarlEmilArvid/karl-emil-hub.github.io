@@ -1,4 +1,27 @@
+@import "./variables.scss";
 
-.hero {
-    border: 2px solid red;
+.hero-parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("../assets/hero-test.jpg");
+    height: 800px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hero-parallax h1 {
+    line-height: 1.1;
+    font-size: 6rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.hero-paragraph {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
 }

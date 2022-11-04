@@ -4,6 +4,7 @@ import About from './components/about'
 import Tools from './components/tools'
 import Projects from './components/projects'
 import Contact from './components/contact'
+import ContactSimple from './components/contact-simple'
 import Footer from './components/footer'
 import './App.scss'
 
@@ -15,13 +16,13 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
-      <Hero/>
-      <About/>
-      <Tools/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <Header />
+      <Hero />
+      <About />
+      <Tools />
+      <Projects />
+      <ContactSimple />
+      <Footer />
     </div>
   )
 }

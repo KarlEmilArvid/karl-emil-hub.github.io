@@ -1,4 +1,34 @@
+@import "./variables.scss";
 
 .about {
-    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.image-container img {
+    width: 450px;
+    margin: 2rem;
+    padding: 0.2rem;
+    border: 4px dotted grey;
+}
+
+.about-me-container {
+    width: 400px;
+    margin: 2rem;
+    padding: 1rem;
+    border: 2px dashed grey;
+}
+
+.about-me-container h2 {
+    font-size: 3.3rem;
+    line-height: 3rem;
+    padding: 2rem;
+}
+
+.about-me-container p {
+    font-size: 1.2rem;
 }
