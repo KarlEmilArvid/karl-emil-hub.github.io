@@ -1,5 +1,9 @@
 import "../styles/projects.scss"
 import rewind from "../assets/rewind.png"
+import login from "../assets/login.png"
+import quiz from "../assets/quiz.png"
+import rescue from "../assets/rescue-rabbits.png"
+import escargo from "../assets/escargo.png"
 
 const Projects = () => {
 
@@ -12,13 +16,13 @@ const Projects = () => {
             <section className="card-wrapper">
                 <article className="projects-card">
                     <h3>Python Quiz Program</h3>
-                    <img src="" alt="" />
+                    <img src={quiz} alt="" />
                     <p>Simple Quiz program made in Python, not feature complete but fully functional</p>
                     <a href="">Link to github page</a>
                 </article>
                 <article className="projects-card">
                     <h3>Animal Shelter mockup website</h3>
-                    <img src="" alt="" />
+                    <img src={rescue} alt="" />
                     <p>Front-end mockup website for an animal rescue center</p>
                     <a href="">Link to deployed website</a>
                     <a href="https://github.com/KarlEmilArvid/Rescue-Rabbits">Link to github page</a>
@@ -31,11 +35,17 @@ const Projects = () => {
                     <a href="https://github.com/KarlEmilArvid/Karl-Emil-Rewind">Link to github page</a>
                 </article>
                 <article className="projects-card">
-                    <h3>Fullstack Resturaunt website</h3>
-                    <img src="" alt="" />
-                    <p>Fullstack website made with React, TypeScript, SCSS and Node.js</p>
-                    <a href="">Link to deployed website</a>
+                    <h3>Simple login page</h3>
+                    <img src={login} alt="" />
+                    <p>Very simple login page extracted from a bigger fullstack project, made with React, TypeScript, Node.js and lowdb</p>
                     <a href="">Link to github page</a>
+                </article>
+                <article className="projects-card">
+                    <h3>Fullstack Resturaunt website</h3>
+                    <img src={escargo} alt="" />
+                    <p>Fullstack website made with React, TypeScript, SCSS and Node.js, created as a group project</p>
+                    <a href="https://escargot-to-go.onrender.com/">Link to deployed website</a>
+                    <a href="https://github.com/folkuni-f21-fullstack/bunny-scientists-fullstack">Link to github page</a>
                 </article>
                 <article className="projects-card">
                     <h3>Hugo Blog</h3>
