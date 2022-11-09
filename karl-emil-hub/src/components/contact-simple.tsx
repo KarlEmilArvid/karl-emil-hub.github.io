@@ -1,4 +1,6 @@
 import "../styles/contact.scss"
+import github from "../assets/github-logo.png"
+import linkedin from "../assets/linkedin-logo.png"
 
 //styla formulär
 //styla länkar
@@ -13,12 +15,12 @@ const ContactSimple = () => {
                 <h4>here's some contact info about me</h4>
                 <ul className="contact-list">
                     <li>
-                        <a href="">link to github</a>
-                        <img src="https://github.com/KarlEmilArvid" alt="" />
+                        <a href="https://github.com/KarlEmilArvid">link to github</a>
+                        <img src={github} alt="" />
                     </li>
                     <li>
-                        <a href="">link to linkedin</a>
-                        <img src="https://www.linkedin.com/in/emil-arvidsson-244797236/" alt="" />
+                        <a href="https://www.linkedin.com/in/emil-arvidsson-244797236/">link to linkedin</a>
+                        <img src={linkedin} alt="" />
                     </li>
                     <li>
                         <a href="">link to stuff</a>

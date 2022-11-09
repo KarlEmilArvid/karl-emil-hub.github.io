@@ -9,8 +9,11 @@
 .contact-list {
     list-style-type: none;
     margin: 2rem;
-}
-
-.contact-list li {
-    margin: 2rem;
+    li {
+        margin: 2rem;
+    }
+    img {
+        max-width: 60px;
+        cursor: pointer;
+    }
 }

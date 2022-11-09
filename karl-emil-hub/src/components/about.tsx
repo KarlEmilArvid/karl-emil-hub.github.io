@@ -1,7 +1,8 @@
 import "../styles/about.scss"
 import profile from "../assets/profile-test.png"
-const About = () => {
 
+const About = () => {
+    
     return (
         <article className="about">
             <section className="image-container">

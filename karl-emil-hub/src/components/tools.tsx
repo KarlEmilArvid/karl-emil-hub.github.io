@@ -1,7 +1,7 @@
 import "../styles/tools.scss"
 
 const Tools = () => {
-
+//ser inte bra ut
     return (
         <section className="tools">
             <article className="tools-card">
@@ -15,6 +15,7 @@ const Tools = () => {
             <ul className="tools-list">
                 <li><img src="" alt="" />JavaScript</li>
                 <li><img src="" alt="" />React</li>
+                <li><img src="" alt="" />Redux</li>
                 <li><img src="" alt="" />TypeScript</li>
                 <li><img src="" alt="" />CSS</li>
                 <li><img src="" alt="" />SASS</li>
