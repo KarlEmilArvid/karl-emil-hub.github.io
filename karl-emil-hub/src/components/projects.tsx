@@ -9,10 +9,12 @@ const Projects = () => {
 
     return (
         <section className="projects">
-            <h3>here's one of my projects</h3>
-            <p>container with an image + hoover effects that take you to the project/open in new window</p>
-            <p>and you know, stuff (have like 3-4 of these and if they're not done have a "in development" class
-                on top of image and disable hoover)</p>
+            <section className="projects-heading">
+                <h3>here's a couple of my projects</h3>
+                <p>container with an image + hoover effects that take you to the project/open in new window</p>
+                <p>and you know, stuff (have like 3-4 of these and if they're not done have a "in development" class
+                    on top of image and disable hoover)</p>
+            </section>
             <section className="card-wrapper">
                 <article className="projects-card">
                     <h3>Python Quiz Program</h3>

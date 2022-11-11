@@ -12,7 +12,8 @@
     border: 4px dotted silver;
     font-size: 1.4rem;
     margin: 2rem;
-    padding: 2rem;
+    padding: 4rem;
+    background-color: $light-background;
 }
 
 .tools-list {
@@ -25,8 +26,9 @@
     font-family: sans-serif;
     font-size: 1.4rem;
     margin: 0.5rem;
-    padding: 0.2rem;
+    padding: 0.4rem;
     border: 2px dotted silver;
+    background-color: $light-background;
 }
 
 @media screen and (max-width: 700px) {
