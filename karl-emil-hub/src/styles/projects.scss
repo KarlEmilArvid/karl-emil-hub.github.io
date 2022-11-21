@@ -30,13 +30,21 @@
     padding: 1rem;
     border: 2px dotted silver;
     background-color: $light-background;
+    background:
+        linear-gradient(135deg, $light-background 25%, transparent 25%) -50px 0,
+        linear-gradient(225deg, $light-background 25%, transparent 25%) -50px 0,
+        linear-gradient(315deg, $light-background 25%, transparent 25%),
+        linear-gradient(45deg, $light-background 25%, transparent 25%);
+    background-size: 100px 100px;
     width: 80%;
 
     h3 {
-        font-size: 5rem;
+        font-size: 4rem;
+        line-height: normal;
         margin: 4rem 0;
         padding: 0;
     }
+
     p {
         font-size: 1.4rem;
     }
@@ -53,7 +61,7 @@
     img {
         height: 350px;
         max-width: 350px;
-        --b: 5px;
+        --b: 3px;
         /* border thickness */
         --c: #0000 25%, silver 0;
         /* define the color here */
@@ -66,7 +74,7 @@
         background-size: 60px 60px;
         /* adjust border length here */
         background-repeat: no-repeat;
-        transition: .6s;
+        transition: 0.4s;
         cursor: pointer;
     }
 

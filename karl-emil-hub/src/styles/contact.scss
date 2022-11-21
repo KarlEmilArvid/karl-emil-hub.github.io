@@ -3,17 +3,30 @@
 .contact {
     border: 2px solid red;
     padding: 2rem;
-    min-height: 300px;
+    min-height: 400px;
 }
 
 .contact-list {
     list-style-type: none;
     margin: 2rem;
+
     li {
         margin: 2rem;
     }
+
     img {
         max-width: 60px;
         cursor: pointer;
     }
+}
+
+.fade {
+    opacity: 0;
+    transform: translate(0, 30vh);
+    transition: all 1s;
+}
+
+.fade.visible {
+    opacity: 1;
+    transform: translate(0, 0);
 }

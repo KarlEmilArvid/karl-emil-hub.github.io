@@ -4,6 +4,7 @@
     display: grid;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     margin: 4rem 0;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -20,6 +21,7 @@
         padding: 0.3rem;
         border: 4px dotted grey;
         background-color: $light-background;
+        background-color: transparent;
     }
 }
 
@@ -29,6 +31,8 @@
     padding: 1rem;
     border: 2px dashed grey;
     background-color: $light-background;
+    background: linear-gradient(90deg, #4b505d 0%, #2c2f36 100%);
+
 
     h2 {
         font-size: 3.3rem;
