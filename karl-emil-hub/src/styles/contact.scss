@@ -1,21 +1,26 @@
 @import "./variables.scss";
 
 .contact {
-    border: 2px solid red;
     padding: 2rem;
     min-height: 400px;
+    h3 {
+        font-size: 2rem;
+        margin: 2rem;
+    }
 }
 
 .contact-list {
     list-style-type: none;
-    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     li {
         margin: 2rem;
     }
 
     img {
-        max-width: 60px;
+        max-width: 70px;
         cursor: pointer;
     }
 }

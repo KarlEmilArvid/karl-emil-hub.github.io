@@ -11,10 +11,15 @@
 .tools-card {
     border: 4px dotted silver;
     font-size: 1.4rem;
+    max-width: 50%;
     margin: 2rem;
     padding: 4rem;
     background-color: $light-background;
     background: linear-gradient(90deg, #4b505d 0%, #2c2f36 100%);
+}
+
+.tools-card h3 {
+    margin: 1rem 0 3rem 0;
 }
 
 .tools-list {

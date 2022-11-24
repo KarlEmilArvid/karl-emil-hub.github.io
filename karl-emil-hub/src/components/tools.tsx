@@ -18,16 +18,13 @@ const Tools = () => {
             }
         }
     });
-    //ser inte bra ut
+
     return (
         <section className="tools">
             <article className="toolsFade tools-card">
-                <h3>text about all the things i use to develop things</h3>
-                <p>maybe cards that animate in when scrolling down</p>
-                <p>or just text image and then image"" text on the other side</p>
-                <p>animate list items to load in from bottom-up</p>
-                <p>attach images for each tools</p>
-                <p>write text about tools section</p>
+                <h3>development tools</h3>
+                <p>my current techstack consists of React with TypeScript, SCSS and Node.js</p>
+                <p>in the future I'm aiming to learn more JavaScript frameworks, work more with Python and learn other programming languages like Go, Rust and </p>
             </article>
             <ul className="toolsFade tools-list">
                 <li><img src="" alt="" />HTML</li>

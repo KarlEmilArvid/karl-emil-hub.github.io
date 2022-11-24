@@ -1,9 +1,5 @@
 @import "./variables.scss";
 
-.projects {
-    border: 2px solid red;
-}
-
 .projects h3 {
     margin: 2rem;
     padding: 2rem;
@@ -26,7 +22,7 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 4rem;
     padding: 1rem;
     border: 2px dotted silver;
     background-color: $light-background;
@@ -47,6 +43,7 @@
 
     p {
         font-size: 1.4rem;
+        margin: 1rem;
     }
 }
 
