@@ -1,0 +1,83 @@
+@import "./variables.scss";
+
+.about {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 4rem 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "img text";
+}
+
+.image-container {
+
+    img {
+        grid-area: img;
+        max-width: 480px;
+        margin: 4rem;
+        padding: 0.3rem;
+        border: 4px dotted grey;
+        background-color: $light-background;
+        background-color: transparent;
+    }
+}
+
+.about-me-container {
+    grid-area: text;
+    margin: 2rem;
+    padding: 1rem;
+    border: 2px dashed grey;
+    background-color: $light-background;
+    background: linear-gradient(90deg, #4b505d 0%, #2c2f36 100%);
+
+
+    h2 {
+        font-size: 3.3rem;
+        line-height: 3rem;
+        padding: 1rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about {
+        grid-template-areas:
+            "img"
+            "text";
+    }
+
+    .about-me-container {
+        max-width: 90%;
+        margin: auto;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .image-container {
+        max-width: 450px;
+        margin: auto;
+
+        img {
+            max-width: 90%;
+            margin: auto;
+        }
+    }
+
+    .about-me-container {
+        max-width: 90%;
+        padding: 1rem;
+        margin: 2rem auto;
+
+        h2 {
+            font-size: 3rem;
+        }
+    }
+}
