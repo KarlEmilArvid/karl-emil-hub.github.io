@@ -10,7 +10,7 @@ const Projects = () => {
     return (
         <section className="projects">
             <section className="projects-heading">
-                <h3>programming projects I've made</h3>
+                <h3>projects I've made</h3>
                 <p>below is a couple of the projects I've made, mostly school assignments and group projects but also some personal projects</p>
             </section>
             <section className="card-wrapper">

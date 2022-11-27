@@ -4,26 +4,26 @@ import $ from 'jquery'
 const Tools = () => {
 
     $(document).on("scroll", function () {
-        let pageTop: any = $(document).scrollTop();
-        let pageBottom = pageTop + $(window).height();
-        let tags = $(".toolsFade");
+        let pageTop: any = $(document).scrollTop()
+        let pageBottom = pageTop + $(window).height()
+        let tags = $(".toolsFade")
 
         for (let i = 0; i < tags.length; i++) {
-            let toolsFade = tags[i];
+            let toolsFade = tags[i]
 
             if ($(toolsFade).position().top < pageBottom) {
-                $(toolsFade).addClass("visible");
+                $(toolsFade).addClass("visible")
             } else {
-                $(toolsFade).removeClass("visible");
+                $(toolsFade).removeClass("visible")
             }
         }
-    });
+    })
 
     return (
         <section className="tools">
             <article className="toolsFade tools-card">
                 <h3>development tools</h3>
-                <p>my current techstack consists of React with TypeScript, SCSS and Node.js</p>
+                <p>my current tech stack consists of React with TypeScript, SCSS and Node.js</p>
                 <p>in the future I'm aiming to learn more JavaScript frameworks, work more with Python and learn other programming languages like Go and Rust</p>
             </article>
             <ul className="toolsFade tools-list">

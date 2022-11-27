@@ -9,16 +9,16 @@ const About = () => {
                 <img src={profile} alt="" />
             </section>
             <section className="about-me-container">
-                <h2>Front-end developer in development</h2>
+                <h2>front-end developer in development</h2>
                 <p>
-                    I'm a 26 year old man doing my second year of front-end dev at folkuniversitetet, I have a big interest in computers,
-                    music and movies. etc etc
+                    I'm 26 years old and currently studying front-end development at Folkuniversitetet in Karlstad, Sweden. I have a big interest in computers,
+                    music and movies.
                 </p>
                 <p>
-                    this portfolio is to showcase things that I've made in my career,
+                    this portfolio is to showcase things that I've made and tools I use,
                     things I've learnt and small tidbits about me and what I do.
                 </p>
-                <p>In the future I want to dive deeper into more front-end frameworks like Vue, Next.js plus get some backend experience with Go and Rust.</p>
+                <p>In the future I want to dive deeper into more front-end frameworks like Vue, Next.js plus get some backend experience with Go and Rust. But most of all I want to spend time programming since It's something I really enjoy.</p>
             </section>
         </article>
     )

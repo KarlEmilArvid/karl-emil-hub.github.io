@@ -9,7 +9,7 @@
 }
 
 .tools-card {
-    border: 4px dotted silver;
+    box-shadow: 1px 1px 1px 1px #4b505d;
     font-size: 1.4rem;
     max-width: 50%;
     margin: 2rem;
@@ -52,7 +52,12 @@
 @media screen and (max-width: 700px) {
     .tools {
         flex-direction: column;
+        height: auto;
         margin: 0;
-        padding: 4rem 0 0;
+        padding: 0;
+    }
+
+    .tools-card {
+        max-width: 100%;
     }
 }

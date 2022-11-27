@@ -18,8 +18,8 @@
         grid-area: img;
         max-width: 480px;
         margin: 4rem;
-        padding: 0.3rem;
-        border: 4px dotted grey;
+        padding: 0.4rem;
+        border: 4px dotted #4b505d;
         background-color: $light-background;
         background-color: transparent;
     }
@@ -29,7 +29,7 @@
     grid-area: text;
     margin: 2rem;
     padding: 1rem;
-    border: 2px dashed grey;
+    box-shadow: 1px 1px 1px 1px #4b505d;
     background-color: $light-background;
     background: linear-gradient(90deg, #4b505d 0%, #2c2f36 100%);
 
@@ -51,6 +51,7 @@
         grid-template-areas:
             "img"
             "text";
+        height: auto;
     }
 
     .about-me-container {

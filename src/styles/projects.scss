@@ -2,7 +2,6 @@
 
 .projects h3 {
     margin: 2rem;
-    padding: 2rem;
 }
 
 .projects a {
@@ -24,7 +23,7 @@
     margin: auto;
     margin-top: 4rem;
     padding: 1rem;
-    border: 2px dotted silver;
+    box-shadow: 1px 1px 1px 1px #4c4c4c;
     background-color: $light-background;
     background:
         linear-gradient(135deg, $light-background 25%, transparent 25%) -50px 0,
