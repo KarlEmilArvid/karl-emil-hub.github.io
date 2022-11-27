@@ -24,7 +24,7 @@ const Tools = () => {
             <article className="toolsFade tools-card">
                 <h3>development tools</h3>
                 <p>my current tech stack consists of React with TypeScript, SCSS and Node.js</p>
-                <p>in the future I'm aiming to learn more JavaScript frameworks, work more with Python and learn other programming languages like Go and Rust</p>
+                <p>I put a lot of focus into writing robust functions, clean code and accessible websites, in the future I hope I get the chance to learn new tools to create fun and useful projects.</p>
             </article>
             <ul className="toolsFade tools-list">
                 <li><img src="" alt="" />HTML</li>
