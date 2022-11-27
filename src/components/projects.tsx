@@ -16,9 +16,11 @@ const Projects = () => {
             <section className="card-wrapper">
                 <article className="projects-card">
                     <h3>Python Quiz Program</h3>
-                    <img src={quiz} alt="" />
+                    <a href="https://github.com/KarlEmilArvid/Python-Quiz" target="_blank">
+                        <img src={quiz} alt="" />
+                    </a>
                     <p>Simple Quiz program made in Python, not feature complete but fully functional</p>
-                    <a href="">Link to github page</a>
+                    <a href="https://github.com/KarlEmilArvid/Python-Quiz">Link to github page</a>
                 </article>
                 <article className="projects-card">
                     <h3>Animal Shelter mockup website</h3>
