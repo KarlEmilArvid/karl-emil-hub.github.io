@@ -1,4 +1,3 @@
 # karl-emil-hub.github.io
 
-## personal portfolio:
-https://karl-emil-hub.vercel.app/
+## personal portfolio: https://karl-emil-hub.vercel.app/
