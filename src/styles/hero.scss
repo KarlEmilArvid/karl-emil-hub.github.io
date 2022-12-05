@@ -11,14 +11,15 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    box-shadow: 1px 1px 1px 1px #4b505d;
-}
+    box-shadow: $box-shadow;
 
-.hero-parallax h1 {
-    line-height: 1.2;
-    font-size: 5rem;
-    margin: 1rem;
-    padding: 1rem;
+    h1 {
+        line-height: 1.2;
+        font-size: 4.5rem;
+        margin: 1rem;
+        padding: 1rem;
+        text-shadow: $text-shadow;
+    }
 }
 
 .hero-paragraph {
@@ -27,4 +28,5 @@
     margin: 1rem;
     padding: 1rem;
     max-width: 40ch;
+    text-shadow: $text-shadow;
 }
