@@ -33,7 +33,6 @@
         linear-gradient(315deg, $light-background 25%, transparent 25%),
         linear-gradient(45deg, $light-background 25%, transparent 25%);
     background-size: 100px 100px;
-    width: 80%;
 
     h3 {
         font-size: 4rem;
@@ -49,8 +48,8 @@
 }
 
 .projects-card {
-    width: 500px;
-    min-height: 200px;
+    width: 450px;
+    min-height: 150px;
     margin: 3rem 2rem;
     padding: 2rem;
     border: 2px dotted silver;
@@ -76,8 +75,12 @@
         cursor: pointer;
     }
 
-    p,
-    a {
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    p {
         padding: 1rem;
     }
 
