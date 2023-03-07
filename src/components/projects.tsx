@@ -1,19 +1,31 @@
-import "../styles/projects.scss"
 import rewind from "../assets/rewind.png"
 import login from "../assets/login.png"
 import quiz from "../assets/quiz.png"
 import rescue from "../assets/rescue-rabbits.png"
 import escargo from "../assets/escargo.png"
+import plugga from "../assets/plugga.jpg"
+import "../styles/projects.scss"
 
 const Projects = () => {
 
     return (
         <section className="projects">
             <section className="projects-heading">
-                <h3>projects I've made</h3>
+                <h2>projects I've made</h2>
                 <p>below is a couple of the projects I've made, mostly school assignments and group projects but also some personal projects</p>
             </section>
             <section className="card-wrapper">
+                <article className="projects-card">
+                    <h3>Plugga-IT.se</h3>
+                    <a href="https://github.com/KarlEmilArvid/Python-Quiz" target="_blank">
+                        <img src={plugga} alt="" />
+                    </a>
+                    <p>Fullstack website made during my first internship of 10 weeks with a team of 3 other interns.</p>
+                    <ul>
+                        <a href="https://plugga-it.se/" target="_blank">Link to website</a>
+                        <a href="https://github.com/KarlEmilArvid/folkans-it-utbildningar" target="_blank">Link to github page</a>
+                    </ul>
+                </article>
                 <article className="projects-card">
                     <h3>Python Quiz Program</h3>
                     <a href="https://github.com/KarlEmilArvid/Python-Quiz" target="_blank">
