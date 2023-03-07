@@ -28,8 +28,10 @@ const Projects = () => {
                         <img src={rescue} alt="" />
                     </a>
                     <p>Front-end mockup website for an animal rescue center</p>
-                    <a href="">Link to deployed website</a>
-                    <a href="https://github.com/KarlEmilArvid/Rescue-Rabbits" target="_blank">Link to github page</a>
+                    <ul>
+                        <a href="">Link to deployed website</a>
+                        <a href="https://github.com/KarlEmilArvid/Rescue-Rabbits" target="_blank">Link to github page</a>
+                    </ul>
                 </article>
                 <article className="projects-card">
                     <h3>Karl-Emil Rewind</h3>
@@ -37,8 +39,10 @@ const Projects = () => {
                         <img src={rewind} alt="" />
                     </a>
                     <p>A sports spreadsheet made in React with TypeScript and SCSS, made for the purpose of keeping track of played sports games</p>
-                    <a href="https://karl-emil-rewind.onrender.com/" target="_blank">Link to deployed website</a>
-                    <a href="https://github.com/KarlEmilArvid/Karl-Emil-Rewind" target="_blank">Link to github page</a>
+                    <ul>
+                        <a href="https://karl-emil-rewind.onrender.com/" target="_blank">Link to deployed website</a>
+                        <a href="https://github.com/KarlEmilArvid/Karl-Emil-Rewind" target="_blank">Link to github page</a>
+                    </ul>
                 </article>
                 <article className="projects-card">
                     <h3>Simple login page</h3>
@@ -54,8 +58,10 @@ const Projects = () => {
                         <img src={escargo} alt="" />
                     </a>
                     <p>Fullstack website made with React, TypeScript, SCSS and Node.js, created as a group project</p>
-                    <a href="https://escargot-to-go.onrender.com/" target="_blank">Link to deployed website</a>
-                    <a href="https://github.com/folkuni-f21-fullstack/bunny-scientists-fullstack" target="_blank">Link to github page</a>
+                    <ul>
+                        <a href="https://escargot-to-go.onrender.com/" target="_blank">Link to deployed website</a>
+                        <a href="https://github.com/folkuni-f21-fullstack/bunny-scientists-fullstack" target="_blank">Link to github page</a>
+                    </ul>
                 </article>
             </section>
         </section>

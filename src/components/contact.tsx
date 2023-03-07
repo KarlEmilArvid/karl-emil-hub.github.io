@@ -1,40 +1,41 @@
-import { useState } from "react"
 import "../styles/contact.scss"
 import github from "../assets/github-logo.png"
 import linkedin from "../assets/linkedin-logo.png"
+import $ from 'jquery'
 
-//styla formulär
-//styla länkar
+const ContactSimple = () => {
 
-const Contact = () => {
-    const [name, setName] = useState<string>('')
-    const [message, setMessage] = useState<string>('')
+    $(document).on("scroll", function () {
+        let pageTop: any = $(document).scrollTop()
+        let pageBottom = pageTop + $(window).height()
+        let tags = $(".fade")
 
-    function sendEmail() {
-        window.open(`mailto:emilarvidsson96@gmail.com?subject=${name}&body=${message}`);
-    }
+        for (let i = 0; i < tags.length; i++) {
+            let fade = tags[i]
+
+            if ($(fade).position().top < pageBottom) {
+                $(fade).addClass("visible")
+            } else {
+                $(fade).removeClass("visible")
+            }
+        }
+    })
 
     return (
-        <section className="contact">
-            <form onSubmit={() => sendEmail()}>
-                <input type="text" name="" required onChange={(e) => setName(e.target.value)} />
-                <input type="text" name="" required onChange={(e) => setMessage(e.target.value)} />
-                <input type="submit" value="submit" />
-            </form>
+        <section className="fade contact">
+            <h3>want to come in contact with me?</h3>
+            <p>send me an email at emilarvidsson96@gmail, or shoot me a message through linkedin or github</p>
             <article className="contact-information">
-                <h4>here's some contact info about me</h4>
                 <ul className="contact-list">
                     <li>
-                        <a href="https://github.com/KarlEmilArvid">link to github</a>
-                        <img src={github} alt="" />
+                        <a href="https://github.com/KarlEmilArvid">
+                            <img src={github} alt="" />
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/emil-arvidsson-244797236/">link to linkedin</a>
-                        <img src={linkedin} alt="" />
-                    </li>
-                    <li>
-                        <a href="">link to stuff</a>
-                        <img src="" alt="" />
+                        <a href="https://www.linkedin.com/in/emil-arvidsson-244797236/" target="_blank">
+                            <img src={linkedin} alt="" />
+                        </a>
                     </li>
                 </ul>
             </article>
@@ -42,4 +43,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default ContactSimple
