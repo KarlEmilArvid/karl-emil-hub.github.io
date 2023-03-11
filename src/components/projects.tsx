@@ -5,11 +5,12 @@ import rescue from "../assets/rescue-rabbits.png"
 import escargo from "../assets/escargo.png"
 import plugga from "../assets/plugga.jpg"
 import "../styles/projects.scss"
+import { forwardRef } from "react"
 
-const Projects = () => {
+const Projects = forwardRef((props, ref) => {
 
     return (
-        <section className="projects">
+        <section ref={ref} className="projects">
             <section className="projects-heading">
                 <h2>projects I've made</h2>
                 <p>below is a couple of the projects I've made, mostly school assignments and group projects but also some personal projects</p>
@@ -78,6 +79,6 @@ const Projects = () => {
             </section>
         </section>
     )
-}
+})
 
 export default Projects

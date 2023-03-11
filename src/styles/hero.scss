@@ -20,13 +20,32 @@
         padding: .5rem;
         text-shadow: $text-shadow;
     }
-}
 
-.hero-paragraph {
-    font-size: 1.8rem;
-    line-height: 1;
-    margin: 0.5rem;
-    padding: .5rem;
-    max-width: 40ch;
-    text-shadow: $text-shadow;
+    .hero-paragraph {
+        font-size: 1.6rem;
+        line-height: 1;
+        margin: .5rem;
+        padding: .5rem;
+        max-width: 40ch;
+        text-shadow: $text-shadow;
+    }
+
+    .hero-list {
+        display: flex;
+
+        li {
+            list-style-type: none;
+            font-size: 1.4rem;
+            line-height: 1;
+            margin: .5rem;
+            padding: .5rem;
+            cursor: pointer;
+            text-shadow: $text-shadow;
+            transition: transform .3s ease-in-out;
+        }
+
+        li:hover {
+            transform: scale(1.1);
+        }
+    }
 }

@@ -1,8 +1,10 @@
 @import "./variables.scss";
 
 .contact {
-    padding: 8rem 4rem;
-    min-height: 400px;
+    margin: 10rem auto;
+    border: 2px solid #4b505d;
+    box-shadow: $box-shadow;
+    max-width: 60%;
 
     h3 {
         font-size: 2rem;
@@ -24,6 +26,13 @@
     img {
         max-width: 70px;
         cursor: pointer;
+        transition: transform .3s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+        box-shadow: $box-shadow;
+        border-radius: 50%;
     }
 }
 

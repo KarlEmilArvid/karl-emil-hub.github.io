@@ -1,9 +1,10 @@
 import "../styles/contact.scss"
 import github from "../assets/github-logo.png"
 import linkedin from "../assets/linkedin-logo.png"
+import { forwardRef } from "react"
 import $ from 'jquery'
 
-const ContactSimple = () => {
+const ContactSimple = forwardRef((props, ref) => {
 
     $(document).on("scroll", function () {
         let pageTop: any = $(document).scrollTop()
@@ -22,7 +23,7 @@ const ContactSimple = () => {
     })
 
     return (
-        <section className="fade contact">
+        <section ref={ref} className="fade contact">
             <h3>want to come in contact with me?</h3>
             <p>send me an email at emilarvidsson96@gmail, or shoot me a message through linkedin or github</p>
             <article className="contact-information">
@@ -41,6 +42,6 @@ const ContactSimple = () => {
             </article>
         </section>
     )
-}
+})
 
 export default ContactSimple

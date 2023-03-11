@@ -2,11 +2,12 @@
 
 .projects {
     h3 {
-        margin: 0.5rem;
+        font-size: 2rem;
+        margin: 1rem;
     }
 
     a {
-        margin: 0.2rem;
+        margin: .2rem;
     }
 }
 
@@ -24,7 +25,7 @@
     justify-content: center;
     margin: auto;
     margin-top: 4rem;
-    padding: 1rem;
+    padding: 2rem;
     box-shadow: $box-shadow;
     background-color: $light-background;
     background:
@@ -35,14 +36,13 @@
     background-size: 100px 100px;
 
     h2 {
-        font-size: 4rem;
-        line-height: normal;
-        margin: 4rem 0;
-        padding: 0;
+        font-size: 3rem;
+        line-height: 3rem;
+        margin: 3rem;
     }
 
     p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin: 1rem;
     }
 }
