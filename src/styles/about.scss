@@ -14,7 +14,7 @@
 
 .image-container img {
     grid-area: img;
-    max-width: 480px;
+    max-width: 450px;
     margin: 4rem;
     padding: 0.4rem;
     border: 4px dotted #4b505d;
@@ -25,7 +25,7 @@
 .about-me-container {
     grid-area: text;
     margin: 2rem;
-    padding: 1rem;
+    padding: 3rem;
     box-shadow: $box-shadow;
     background-color: $light-background;
     background: linear-gradient(90deg, #4b505d 0%, #2c2f36 100%);
@@ -51,15 +51,20 @@
     }
 
     .about-me-container {
-        max-width: 90%;
-        margin: 2rem auto;
+        margin: 2rem;
     }
 }
 
 @media screen and (max-width: 620px) {
+
+    .about {
+        margin: 0rem;
+    }
+
     .image-container {
         max-width: 480px;
         margin: auto;
+        margin-top: 2rem;
 
         img {
             max-width: 90%;

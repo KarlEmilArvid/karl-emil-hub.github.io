@@ -28,7 +28,7 @@ const ContactSimple = () => {
             <article className="contact-information">
                 <ul className="contact-list">
                     <li>
-                        <a href="https://github.com/KarlEmilArvid">
+                        <a href="https://github.com/KarlEmilArvid" target="_blank">
                             <img src={github} alt="" />
                         </a>
                     </li>

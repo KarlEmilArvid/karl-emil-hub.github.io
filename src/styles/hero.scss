@@ -14,19 +14,19 @@
     box-shadow: $box-shadow;
 
     h1 {
-        line-height: 1.2;
-        font-size: 4.5rem;
-        margin: 1rem;
-        padding: 1rem;
+        line-height: 1;
+        font-size: 4.2rem;
+        margin: .5rem;
+        padding: .5rem;
         text-shadow: $text-shadow;
     }
 }
 
 .hero-paragraph {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 0.5rem;
+    padding: .5rem;
     max-width: 40ch;
     text-shadow: $text-shadow;
 }
