@@ -1,9 +1,9 @@
 import "../styles/about.scss"
 import profile from "../assets/profile-test.png"
 import profile1 from "../assets/profile-1.jpg"
-import { forwardRef, useRef } from "react"
+import { forwardRef } from "react"
 
-const About = forwardRef((props, ref): any => {
+const About = forwardRef((props, ref: React.ForwardedRef<null>) => {
 
     return (
         <article ref={ref} className="about">

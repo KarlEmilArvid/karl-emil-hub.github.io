@@ -2,7 +2,7 @@ import "../styles/tools.scss"
 import { forwardRef } from "react"
 import $ from 'jquery'
 
-const Tools = forwardRef((props, ref) => {
+const Tools = forwardRef((props, ref: React.ForwardedRef<null>) => {
 
     $(document).on("scroll", function () {
         let pageTop: any = $(document).scrollTop()

@@ -7,7 +7,7 @@ import plugga from "../assets/plugga.jpg"
 import "../styles/projects.scss"
 import { forwardRef } from "react"
 
-const Projects = forwardRef((props, ref) => {
+const Projects = forwardRef((props, ref: React.ForwardedRef<null>) => {
 
     return (
         <section ref={ref} className="projects">

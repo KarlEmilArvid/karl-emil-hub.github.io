@@ -4,7 +4,7 @@ import linkedin from "../assets/linkedin-logo.png"
 import { forwardRef } from "react"
 import $ from 'jquery'
 
-const ContactSimple = forwardRef((props, ref) => {
+const ContactSimple = forwardRef((props, ref: React.ForwardedRef<null>) => {
 
     $(document).on("scroll", function () {
         let pageTop: any = $(document).scrollTop()

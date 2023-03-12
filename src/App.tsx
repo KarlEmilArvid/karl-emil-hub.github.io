@@ -9,10 +9,10 @@ import './App.scss'
 
 function App() {
 
-    const aboutRef = useRef<HTMLDivElement>(null)
-    const toolsRef = useRef<HTMLDivElement>(null)
-    const projectsRef = useRef<HTMLDivElement>(null)
-    const contactRef = useRef<HTMLDivElement>(null)
+    const aboutRef = useRef<null>(null)
+    const toolsRef = useRef<null>(null)
+    const projectsRef = useRef<null>(null)
+    const contactRef = useRef<null>(null)
 
     return (
         <div className="App">
