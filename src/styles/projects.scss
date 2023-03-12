@@ -25,9 +25,7 @@
     justify-content: center;
     margin: auto;
     margin-top: 4rem;
-    padding: 2rem;
-    box-shadow: $box-shadow;
-    background-color: $light-background;
+    padding: 3rem;
     background:
         linear-gradient(135deg, $light-background 25%, transparent 25%) -50px 0,
         linear-gradient(225deg, $light-background 25%, transparent 25%) -50px 0,
@@ -52,17 +50,18 @@
     height: 580px;
     margin: 3rem 1rem 0;
     padding: 2rem;
-    border: 2px dotted silver;
+    box-shadow: $box-shadow;
     background-color: $light-background;
 
     img {
         height: 300px;
         max-width: 300px;
-        --b: 3px;
+        object-fit: cover;
+        --b: 4px;
         /* border thickness */
         --c: #0000 25%, silver 0;
         /* define the color here */
-        padding: 10px;
+        padding: 12px;
         background:
             conic-gradient(from 90deg at top var(--b) left var(--b), var(--c)) 0 0,
             conic-gradient(from 180deg at top var(--b) right var(--b), var(--c)) 100% 0,
@@ -90,26 +89,42 @@
 }
 
 @media screen and (max-width: 700px) {
-    .projects-card {
-        max-width: fit-content;
-        width: 450px;
-        height: 550px;
-        margin: 2rem 0rem;
-        padding: 1rem;
+    .projects-heading {
+        padding: 0;
 
-        img {
-            max-width: 300px;
-            max-height: 300px;
+        h2 {
+            max-width: 90%;
+            text-align: start;
+            margin: 3rem auto;
         }
 
         p {
-            padding: 0.5rem;
+            max-width: 90%;
+            text-align: start;
+            margin: 1rem 0;
+        }
+    }
+
+    .projects-card {
+        max-width: fit-content;
+        max-width: 90%;
+        height: 550px;
+        margin: 2rem 0rem;
+        padding: .5rem;
+
+        img {
+            max-width: 280px;
+            max-height: 280px;
+        }
+
+        p {
+            padding: .5rem;
         }
 
         a {
             display: block;
             margin: 0;
-            padding: 0.5rem;
+            padding: .2rem;
         }
     }
 }

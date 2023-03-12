@@ -14,10 +14,10 @@
 }
 
 .contact-list {
-    list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style-type: none;
 
     li {
         margin: 2rem;
@@ -45,4 +45,18 @@
 .fade.visible {
     opacity: 1;
     transform: translate(0, 0);
+}
+
+@media screen and (max-width: 600px) {
+    .contact {
+        margin: 6rem auto;
+        max-width: 90%;
+
+        p {
+            text-align: start;
+            padding: .3rem;
+            margin: .3rem;
+        }
+    }
+
 }

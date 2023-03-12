@@ -1,8 +1,8 @@
-import "../styles/contact.scss"
 import github from "../assets/github-logo.png"
 import linkedin from "../assets/linkedin-logo.png"
 import { forwardRef } from "react"
 import $ from 'jquery'
+import "../styles/contact.scss"
 
 const ContactSimple = forwardRef((props, ref: React.ForwardedRef<null>) => {
 

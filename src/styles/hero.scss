@@ -24,6 +24,7 @@
     .hero-paragraph {
         font-size: 1.6rem;
         line-height: 1;
+        text-align: end;
         margin: .5rem;
         padding: .5rem;
         max-width: 40ch;
@@ -35,17 +36,35 @@
 
         li {
             list-style-type: none;
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             line-height: 1;
             margin: .5rem;
             padding: .5rem;
-            cursor: pointer;
-            text-shadow: $text-shadow;
+            background-color: #303030;
+            border: 2px dotted #4b505d;
             transition: transform .3s ease-in-out;
+            cursor: pointer;
         }
 
         li:hover {
             transform: scale(1.1);
+        }
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .hero-parallax {
+        text-align: start;
+        height: 80vh;
+        background-attachment: unset;
+
+        .hero-paragraph {
+            text-align: start;
+        }
+
+        .hero-list {
+            margin: 0 auto;
         }
     }
 }

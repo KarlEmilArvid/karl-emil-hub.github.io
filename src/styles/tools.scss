@@ -4,8 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: start;
     height: 120vh;
-    border-top: 4px dashed silver;
+    border-top: 4px dotted #4b505d;
 }
 
 .tools-card {
@@ -27,18 +28,20 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 55%;
-    max-width: 50%;
+    text-align: center;
+    max-height: 60%;
+    max-width: 100%;
     list-style: none;
-    margin: 4rem;
+    margin-right: 10rem;
     padding: 2rem;
 
     li {
+        width: 100%;
         font-family: sans-serif;
         font-size: 1.4rem;
-        margin: 0.8rem;
+        margin: .8rem;
         padding: .5rem;
-        border: 2px dotted silver;
+        border: 2px dotted #4b505d;
         background-color: $light-background;
     }
 }
@@ -65,6 +68,17 @@
 
     .tools-card {
         max-width: 100%;
-        padding: 4rem;
+        padding: 5rem 1rem;
+    }
+
+    .tools-list {
+        flex-direction: row;
+        max-width: 90%;
+        margin: auto;
+        padding: 0;
+
+        li {
+            margin: .5rem;
+        }
     }
 }

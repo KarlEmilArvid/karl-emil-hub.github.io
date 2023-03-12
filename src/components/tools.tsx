@@ -1,6 +1,6 @@
-import "../styles/tools.scss"
-import { forwardRef } from "react"
+import { forwardRef } from 'react'
 import $ from 'jquery'
+import '../styles/tools.scss'
 
 const Tools = forwardRef((props, ref: React.ForwardedRef<null>) => {
 
@@ -30,17 +30,17 @@ const Tools = forwardRef((props, ref: React.ForwardedRef<null>) => {
                 </p>
             </article>
             <ul className="toolsFade tools-list">
-                <li><img src="" alt="" />HTML</li>
-                <li><img src="" alt="" />CSS</li>
-                <li><img src="" alt="" />JavaScript</li>
-                <li><img src="" alt="" />TypeScript</li>
-                <li><img src="" alt="" />React</li>
-                <li><img src="" alt="" />Redux</li>
-                <li><img src="" alt="" />SASS</li>
-                <li><img src="" alt="" />Figma</li>
-                <li><img src="" alt="" />Python</li>
-                <li><img src="" alt="" />Node.js</li>
-                <li><img src="" alt="" />Firebase</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>SASS</li>
+                <li>Figma</li>
+                <li>Python</li>
+                <li>Node.js</li>
+                <li>Firebase</li>
             </ul>
         </section>
     )

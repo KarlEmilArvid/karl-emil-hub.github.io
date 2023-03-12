@@ -4,8 +4,8 @@ import quiz from "../assets/quiz.png"
 import rescue from "../assets/rescue-rabbits.png"
 import escargo from "../assets/escargo.png"
 import plugga from "../assets/plugga.jpg"
-import "../styles/projects.scss"
 import { forwardRef } from "react"
+import "../styles/projects.scss"
 
 const Projects = forwardRef((props, ref: React.ForwardedRef<null>) => {
 
@@ -18,7 +18,7 @@ const Projects = forwardRef((props, ref: React.ForwardedRef<null>) => {
             <section className="card-wrapper">
                 <article className="projects-card">
                     <h3>Plugga-IT.se</h3>
-                    <a href="https://github.com/KarlEmilArvid/Python-Quiz" target="_blank">
+                    <a href="https://plugga-it.se/" target="_blank">
                         <img src={plugga} alt="" />
                     </a>
                     <p>Fullstack website made during my first internship of 10 weeks with a team of 3 other interns.</p>
@@ -33,7 +33,7 @@ const Projects = forwardRef((props, ref: React.ForwardedRef<null>) => {
                         <img src={quiz} alt="" />
                     </a>
                     <p>Simple Quiz program made in Python, not feature complete but fully functional</p>
-                    <a href="https://github.com/KarlEmilArvid/Python-Quiz">Link to github page</a>
+                    <a href="https://github.com/KarlEmilArvid/Python-Quiz" target="_blank">Link to github page</a>
                 </article>
                 <article className="projects-card">
                     <h3>Animal Shelter mockup website</h3>
@@ -42,7 +42,6 @@ const Projects = forwardRef((props, ref: React.ForwardedRef<null>) => {
                     </a>
                     <p>Front-end mockup website for an animal rescue center</p>
                     <ul>
-                        <a href="">Link to deployed website</a>
                         <a href="https://github.com/KarlEmilArvid/Rescue-Rabbits" target="_blank">Link to github page</a>
                     </ul>
                 </article>
