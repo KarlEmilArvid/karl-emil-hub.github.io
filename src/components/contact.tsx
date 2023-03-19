@@ -24,8 +24,8 @@ const ContactSimple = forwardRef((props, ref: React.ForwardedRef<null>) => {
 
     return (
         <section ref={ref} className="fade contact">
-            <h3>want to come in contact with me?</h3>
-            <p>send me an email at emilarvidsson96@gmail, or shoot me a message through linkedin or github</p>
+            <h3>want to get in contact with me?</h3>
+            <p>send me an email at emilarvidsson96@gmail, or send me a message through linkedin or github</p>
             <article className="contact-information">
                 <ul className="contact-list">
                     <li>

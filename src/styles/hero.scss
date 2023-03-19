@@ -34,26 +34,30 @@
     .hero-list {
         display: flex;
 
-        li {
+        .hero-button {
+            width: 100px;
             list-style-type: none;
             font-size: 1.2rem;
             line-height: 1;
             margin: .5rem;
-            padding: .5rem;
-            background-color: #303030;
-            border: 2px dotted #4b505d;
+            padding: .8rem;
             transition: transform .3s ease-in-out;
+            transition: all 0.5s;
+            background-color: #303030;
+            border: 3px dotted #4b505d;
             cursor: pointer;
         }
 
-        li:hover {
+        .hero-button:hover {
             transform: scale(1.1);
+            border-radius: 2px;
+            box-shadow: 4px 4px 2px #4b505d;
+            margin: 0 1rem 1rem 0;
         }
     }
 }
 
 @media screen and (max-width: 620px) {
-
     .hero-parallax {
         text-align: start;
         height: 80vh;
