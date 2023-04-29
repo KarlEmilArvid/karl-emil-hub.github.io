@@ -1,5 +1,5 @@
 import rewind from "../assets/rewind.png"
-import login from "../assets/login.png"
+import combo from "../assets/combo.png"
 import quiz from "../assets/quiz.png"
 import rescue from "../assets/rescue-rabbits.png"
 import escargo from "../assets/escargo.png"
@@ -16,6 +16,17 @@ const Projects = forwardRef((props, ref: React.ForwardedRef<null>) => {
                 <p>below is a couple of the projects I've made, mostly school assignments and group projects but also some personal projects</p>
             </section>
             <section className="card-wrapper">
+                <article className="projects-card">
+                    <h3>Combovault.com</h3>
+                    <a href="https://combovault.com/" target="_blank">
+                        <img src={combo} alt="" />
+                    </a>
+                    <p>Fighting game website for storing and sharing information, all information is community driven. Made with React and Firebase.</p>
+                    <ul>
+                        <a href="https://combovault.com/" target="_blank">Link to website</a>
+                        <a href="https://github.com/KarlEmilArvid/ComboVault" target="_blank">Link to github page</a>
+                    </ul>
+                </article>
                 <article className="projects-card">
                     <h3>Plugga-IT.se</h3>
                     <a href="https://plugga-it.se/" target="_blank">
@@ -55,14 +66,6 @@ const Projects = forwardRef((props, ref: React.ForwardedRef<null>) => {
                         <a href="https://karl-emil-rewind.onrender.com/" target="_blank">Link to deployed website</a>
                         <a href="https://github.com/KarlEmilArvid/Karl-Emil-Rewind" target="_blank">Link to github page</a>
                     </ul>
-                </article>
-                <article className="projects-card">
-                    <h3>Simple login page</h3>
-                    <a href="https://github.com/KarlEmilArvid/simple-fullstack-login-page" target="_blank">
-                        <img src={login} alt="" />
-                    </a>
-                    <p>Very simple login page extracted from a bigger fullstack project, made with React, TypeScript, Node.js and lowdb</p>
-                    <a href="https://github.com/KarlEmilArvid/simple-fullstack-login-page" target="_blank">Link to github page</a>
                 </article>
                 <article className="projects-card">
                     <h3>Fullstack Resturaunt website</h3>

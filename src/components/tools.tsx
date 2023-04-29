@@ -25,8 +25,8 @@ const Tools = forwardRef((props, ref: React.ForwardedRef<null>) => {
             <article className="toolsFade tools-card">
                 <h3>development tools</h3>
                 <p>
-                    my tech stack usually consists of React with TypeScript, SCSS and Node.js/Firebase.
-                    <br />I focus on robust functions, clean code and accessible websites, in the future I hope I get the chance to learn new tools to create fun, accessible and useful projects.
+                    my tech stack consists of React with TypeScript, SCSS and Node.js/Firebase.
+                    <br />I focus on robust functions, clean code and responsive websites, in the future I hope I get the chance to learn new tools to create fun, accessible and useful projects.
                 </p>
             </article>
             <ul className="toolsFade tools-list">
@@ -39,6 +39,7 @@ const Tools = forwardRef((props, ref: React.ForwardedRef<null>) => {
                 <li>SASS</li>
                 <li>Figma</li>
                 <li>Python</li>
+                <li>Flask</li>
                 <li>Node.js</li>
                 <li>Firebase</li>
             </ul>
