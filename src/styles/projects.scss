@@ -42,6 +42,7 @@
     p {
         font-size: 1.2rem;
         margin: 1rem;
+        max-width: 70ch;
     }
 }
 
@@ -93,22 +94,22 @@
         padding: 0;
 
         h2 {
-            max-width: 90%;
+            max-width: 100%;
             text-align: start;
-            margin: 3rem auto;
+            margin: 2rem auto;
         }
 
         p {
             max-width: 90%;
             text-align: start;
-            margin: 1rem 0;
+            margin: .5rem 0;
         }
     }
 
     .projects-card {
         max-width: fit-content;
         max-width: 90%;
-        height: 550px;
+        height: fit-content;
         margin: 2rem 0rem;
         padding: .5rem;
 

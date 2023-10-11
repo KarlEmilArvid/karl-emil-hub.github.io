@@ -13,7 +13,8 @@ const Projects = forwardRef((props, ref: React.ForwardedRef<null>) => {
         <section ref={ref} className="projects">
             <section className="projects-heading">
                 <h2>projects I've made</h2>
-                <p>below is a couple of the projects I've made, mostly school assignments and group projects but also some personal projects</p>
+                <p>below you'll see a few projects I've worked on, some school assignments/group projects but also personal projects I've made</p>
+                <p>Things I'm currently working on not showcased publicly are: a component library, several teaching projects where I learn how to teach people programming (with help from my component library) and some educational papers related to web development.</p>
             </section>
             <section className="card-wrapper">
                 <article className="projects-card">
