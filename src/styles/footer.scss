@@ -4,3 +4,9 @@ footer {
     width: 100%;
     min-height: 20vh;
 }
+
+@media screen and (max-width: 620px) {
+    footer {
+        min-height: 10vh;
+    }
+}
