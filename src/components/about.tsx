@@ -15,7 +15,7 @@ const About = forwardRef((props, ref: React.ForwardedRef<null>) => {
                 <p>
                     I'm 27 years old and have worked at a couple of Swedish software companies, I currently live in Skövde, Sweden. I have an interest in computer software, heavy music and I live a plant based lifestyle.
                     <br />This portfolio is to showcase things that I've made and the tools I use, things I've learnt and small tidbits about me.
-                    <br />In the future I want to dive deeper into other front-end tools to learn and experience.
+                    <br />In the future I want to try out different front-end tools and also some back-end languages to learn and experience.
                     <br />But most of all I want to spend time programming and learning as much as I can.</p>
             </section>
         </article>

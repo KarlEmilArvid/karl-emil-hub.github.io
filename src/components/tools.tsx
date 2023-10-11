@@ -25,7 +25,7 @@ const Tools = forwardRef((props, ref: React.ForwardedRef<null>) => {
             <article className="toolsFade tools-card">
                 <h3>development tools</h3>
                 <p>
-                    my tech stack consists of React with TypeScript, SCSS and Node.js/Firebase. but I've also worked a lot with vanilla JavaScript.
+                    my tech stack consists of React with TypeScript, SCSS, Node.js and sometimes Firebase. recently I've also worked a lot with vanilla JavaScript.
                     <br />I focus on robust functions, clean code, responsive websites and user friendly apps, in the future I want to focus on learning new tools to create fun, accessible and useful projects.
                 </p>
             </article>
